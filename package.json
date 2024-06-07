@@ -1,0 +1,45 @@
+{
+  "name": "belajar-nodejs-restful-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "verbose": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anfahrul/belajar-nodejs-restful-api.git"
+  },
+  "author": "Fahrul AN",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/anfahrul/belajar-nodejs-restful-api/issues"
+  },
+  "homepage": "https://github.com/anfahrul/belajar-nodejs-restful-api#readme",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.6",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/uuid": "^9.0.8",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.14.0",
+    "supertest": "^7.0.0"
+  }
+}
